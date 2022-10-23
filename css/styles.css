@@ -1,3 +1,6 @@
+body {
+  width: 1600px;
+}
 :root {
   --background-color: #2f303a;
   --blue-fonts-color: #2196f3;
@@ -97,6 +100,8 @@ a:focus {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   background-color: var(--background-color);
 }
 address {
@@ -108,6 +113,9 @@ address {
   color: var(--h1-color);
 }
 h1 {
+  display: flex;
+  margin-block: 5%;
+  padding: 5%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -165,4 +173,28 @@ h3 {
 }
 .bright-color {
   color: var(--h1-color);
+}
+.menu {
+  display: flex;
+}
+.item {
+  display: flex;
+  padding: auto;
+}
+.list-item {
+  display: flex;
+}
+.list-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.buttons-pos {
+  display: flex;
+}
+.buttons-posit {
+  display: flex;
+}
+.li-pic {
+  display: flexbox;
 }
