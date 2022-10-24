@@ -67,6 +67,10 @@ a:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  display: flexbox;
+  max-width: 160px;
+  margin-left: 35%;
+  margin-bottom: 5%;
 
   color: var(--background-color);
 }
@@ -127,7 +131,6 @@ h1 {
   color: var(--h1-color);
 }
 h2 {
-  display: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -150,6 +153,7 @@ h3 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  display: flex;
 
   color: var(--grey-fonts-color);
 }
@@ -202,4 +206,15 @@ h3 {
 }
 .li-pic {
   display: flexbox;
+}
+.desaperer {
+  display: none;
+}
+.li-item {
+  display: flex;
+  padding: auto;
+}
+.li-pics {
+  display: flexbox;
+  padding: auto;
 }
