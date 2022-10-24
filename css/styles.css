@@ -58,6 +58,8 @@ a:focus {
 
   color: var(--blue-fonts-color);
   text-decoration: none;
+  margin-top: 60px;
+  margin-left: 215;
 }
 .buttons {
   font-family: "Roboto";
@@ -109,6 +111,7 @@ address {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  margin-top: 20px;
 
   color: var(--h1-color);
 }
@@ -191,9 +194,11 @@ h3 {
 }
 .buttons-pos {
   display: flex;
+  justify-content: center;
 }
 .buttons-posit {
   display: flex;
+  justify-content: center;
 }
 .li-pic {
   display: flexbox;
