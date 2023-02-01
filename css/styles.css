@@ -39,7 +39,7 @@ a:focus {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
-
+  display: inline;
   color: var(--grey-fonts-color);
 }
 .contacts-top:hover,
@@ -64,6 +64,7 @@ a:focus {
   line-height: 1.6;
 
   color: var(--background-color);
+  display: inline-block;
 }
 .buttons:hover,
 .buttons:focus {
@@ -98,6 +99,8 @@ a:focus {
 
 .wrapper {
   background-color: var(--background-color);
+  width: 1200px;
+  height: 600px;
 }
 address {
   font-family: "Roboto";
@@ -164,4 +167,12 @@ h3 {
 }
 .bright-color {
   color: var(--h1-color);
+}
+.container {
+  width: 1200px;
+}
+.header {
+  width: 1200px;
+  height: 80px;
+  display: flex;
 }
