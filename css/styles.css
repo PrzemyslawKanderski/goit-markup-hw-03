@@ -12,6 +12,8 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  padding-left: 215px;
+  padding-top: 24px;
 
   color: var(--blue-fonts-color);
   text-decoration: none;
@@ -64,7 +66,8 @@ a:focus {
   line-height: 1.6;
 
   color: var(--background-color);
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 .buttons:hover,
 .buttons:focus {
@@ -102,6 +105,11 @@ a:focus {
   width: 1200px;
   height: 600px;
 }
+.wrapper-bottom {
+  background-color: var(--background-color);
+  width: 1600px;
+  height: 252px;
+}
 address {
   font-family: "Roboto";
   font-size: 14px;
@@ -117,6 +125,7 @@ h1 {
   font-size: 44px;
   line-height: 1.36;
   color: var(--h1-color);
+  text-align: center;
 }
 h2 {
   font-family: "Roboto";
@@ -175,4 +184,21 @@ h3 {
   width: 1200px;
   height: 80px;
   display: flex;
+}
+.menu {
+  display: flex;
+  width: 254 px;
+  height: 16px;
+  padding-left: 432px;
+  padding-top: 32px;
+  padding-right: 893px;
+}
+.links {
+  display: inline-flex;
+}
+.menu-portfolio {
+  display: flex;
+  width: 452px;
+  height: 54px;
+  justify-content: center;
 }
