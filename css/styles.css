@@ -38,7 +38,7 @@ a:focus {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
-  display: inline;
+  display: flex;
   color: var(--grey-fonts-color);
 }
 .contacts-top:hover,
@@ -175,29 +175,27 @@ h3 {
   color: var(--h1-color);
 }
 .container {
-  width: 1200px;
+  max-width: 1200px;
 }
 .header {
-  width: 1200px;
+  max-width: 1200px;
   height: 80px;
   display: flex;
 }
 .menu {
   display: flex;
-  width: 254 px;
+  max-width: 254 px;
   height: 16px;
 }
 .links {
   display: inline-flex;
 }
-.menu-portfolio {
+.nav-items {
   display: flex;
-  width: 452px;
-  height: 54px;
+  max-width: 452px;
+  max-height: 54px;
 }
-.menu {
-  display: flex;
-}
+
 .inner-text {
   display: flex;
   max-width: 696px;
@@ -214,9 +212,21 @@ h3 {
   display: flex;
   max-width: 1170px;
   max-width: 1360px;
+  flex-wrap: wrap-reverse;
 }
 .list-pictures-portfolio {
   display: flex;
   max-width: 370px;
   max-height: 404px;
+}
+.lorem-nav {
+  display: flex;
+  max-width: 1170px;
+  max-height: 101px;
+}
+.lorem-items {
+  display: flex;
+  max-width: 270px;
+  max-height: 101px;
+  flex-wrap: wrap;
 }
