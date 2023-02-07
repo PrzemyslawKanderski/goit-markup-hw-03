@@ -204,3 +204,11 @@ h3 {
 .inner-button {
   align-items: center;
 }
+.pictures-portfolio {
+  display: inline-flex;
+  max-width: 1170px;
+  max-width: 1360px;
+}
+.list-pictures-portfolio {
+  display: flex;
+}
