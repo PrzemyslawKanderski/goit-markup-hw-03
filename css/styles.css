@@ -63,7 +63,7 @@ a:focus {
   line-height: 1.6;
 
   color: var(--background-color);
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
 .buttons:hover,
@@ -98,9 +98,12 @@ a:focus {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   background-color: var(--background-color);
   width: 1200px;
   height: 600px;
+  align-items: center;
 }
 .wrapper-bottom {
   background-color: var(--background-color);
@@ -184,40 +187,43 @@ h3 {
 }
 .menu {
   display: flex;
-  max-width: 254 px;
+  max-width: 1200 px;
   height: 16px;
 }
 .links {
-  display: inline-flex;
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  display: flex;
+  color: var(--grey-fonts-color);
 }
 .nav-items {
   display: flex;
-  max-width: 452px;
-  max-height: 54px;
+  max-width: 53px;
+  max-height: 16px;
 }
 
 .inner-text {
   display: flex;
   max-width: 696px;
-  max-height: 120px;
-  margin: auto;
-  padding-top: 150px;
-  background-color: #2196f3;
 }
 .inner-button {
-  margin: auto;
-  padding-bottom: 5px;
+  display: block;
 }
 .pictures-portfolio {
   display: flex;
-  max-width: 1170px;
-  max-width: 1360px;
-  flex-wrap: wrap-reverse;
+  max-width: 370px;
+  max-height: 404px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .list-pictures-portfolio {
   display: flex;
-  max-width: 370px;
-  max-height: 404px;
+  max-width: 1200px;
+  max-height: 1360px;
 }
 .lorem-nav {
   display: flex;
@@ -229,4 +235,21 @@ h3 {
   max-width: 270px;
   max-height: 101px;
   flex-wrap: wrap;
+}
+.images-list {
+  display: flex;
+  gap: 30px;
+}
+.inner-images {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wrapper-portfolio {
+  flex-basis: calc(100% - 370px);
+}
+.buttons-portfolio {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
