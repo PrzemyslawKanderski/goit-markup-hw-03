@@ -179,16 +179,26 @@ h3 {
 }
 .container {
   max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  text-align: center;
 }
 .header {
-  max-width: 1200px;
-  height: 80px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .menu {
   display: flex;
   max-width: 1200 px;
   height: 16px;
+}
+.menu-contacts-top {
+  display: flex;
+  max-width: 1200 px;
+  height: 16px;
+  align-items: center;
+  justify-content: space-between;
 }
 .links {
   font-family: "Roboto";
@@ -202,8 +212,6 @@ h3 {
 }
 .nav-items {
   display: flex;
-  max-width: 53px;
-  max-height: 16px;
 }
 
 .inner-text {
@@ -213,13 +221,7 @@ h3 {
 .inner-button {
   display: block;
 }
-.pictures-portfolio {
-  display: flex;
-  max-width: 370px;
-  max-height: 404px;
-  flex-wrap: wrap;
-  gap: 30px;
-}
+
 .list-pictures-portfolio {
   display: flex;
   max-width: 1200px;
@@ -247,9 +249,23 @@ h3 {
 }
 .wrapper-portfolio {
   flex-basis: calc(100% - 370px);
+  flex-wrap: wrap;
 }
 .buttons-portfolio {
   display: flex;
   align-items: center;
   flex-direction: row;
+}
+.pictures-portfolio {
+  display: flex;
+  max-width: 370px;
+  max-height: 404px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.nav-menu {
+  display: flex;
+}
+.contacts.menu {
+  display: flex;
 }
