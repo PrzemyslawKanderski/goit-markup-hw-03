@@ -109,6 +109,7 @@ a:focus {
   background-color: var(--background-color);
   width: 1600px;
   height: 252px;
+  padding: 0 auto;
 }
 address {
   font-family: "Roboto";
@@ -226,6 +227,7 @@ h3 {
   display: flex;
   max-width: 1200px;
   max-height: 1360px;
+  flex-wrap: wrap;
 }
 .lorem-nav {
   display: flex;
@@ -236,7 +238,9 @@ h3 {
   display: flex;
   max-width: 270px;
   max-height: 101px;
+
   flex-wrap: wrap;
+  text-align: center;
 }
 .images-list {
   display: flex;
@@ -248,24 +252,33 @@ h3 {
   flex-direction: column;
 }
 .wrapper-portfolio {
-  flex-basis: calc(100% - 370px);
+  max-width: 1200px;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .buttons-portfolio {
   display: flex;
-  align-items: center;
-  flex-direction: row;
 }
 .pictures-portfolio {
   display: flex;
   max-width: 370px;
   max-height: 404px;
-  flex-wrap: wrap;
-  gap: 30px;
 }
 .nav-menu {
   display: flex;
+  justify-content: flex-start;
+  gap: 46px;
 }
 .contacts.menu {
+  display: flex;
+}
+.menu-portfolio {
+  display: flex;
+  justify-content: center;
+}
+.footer-contacts {
+  display: flex;
+}
+.f-contacts {
   display: flex;
 }
