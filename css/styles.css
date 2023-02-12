@@ -107,8 +107,6 @@ a:focus {
 }
 .wrapper-bottom {
   background-color: var(--background-color);
-  width: 1600px;
-  height: 252px;
   padding: 0 auto;
 }
 address {
@@ -263,11 +261,11 @@ h3 {
   display: flex;
   max-width: 370px;
   max-height: 404px;
+  flex-direction: column;
 }
 .nav-menu {
   display: flex;
-  justify-content: flex-start;
-  gap: 46px;
+  align-content: space-between;
 }
 .contacts.menu {
   display: flex;
@@ -275,6 +273,8 @@ h3 {
 .menu-portfolio {
   display: flex;
   justify-content: center;
+  align-content: space-between;
+  gap: 8px;
 }
 .footer-contacts {
   display: flex;
