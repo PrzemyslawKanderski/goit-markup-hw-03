@@ -39,7 +39,6 @@ a:focus {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
-  display: flex;
   color: var(--grey-fonts-color);
 }
 .contacts-top:hover,
@@ -64,8 +63,6 @@ a:focus {
   line-height: 1.6;
 
   color: var(--background-color);
-  display: flex;
-  align-items: center;
   margin-top: 94px;
 }
 .buttons:hover,
@@ -111,8 +108,7 @@ a:focus {
 }
 .wrapper-bottom {
   background-color: var(--background-color);
-  padding: 0 auto;
-  margin-top: 94px;
+  padding: 60px auto;
 }
 address {
   font-family: "Roboto";
@@ -191,24 +187,20 @@ h3 {
 .container {
   max-width: 1200px;
   margin: auto;
-  justify-content: space-between;
 }
 .header {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 .menu {
   display: flex;
-  max-width: 1200 px;
+  max-width: 261 px;
   height: 16px;
+  flex-grow: 1;
 }
 .menu-contacts-top {
   display: flex;
-  max-width: 1200 px;
-  height: 16px;
-  align-items: center;
-  justify-content: space-between;
 }
 .links {
   font-family: "Roboto";
@@ -220,7 +212,8 @@ h3 {
   color: var(--grey-fonts-color);
 }
 .nav-items {
-  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .inner-text {
@@ -278,15 +271,9 @@ h3 {
 }
 .nav-menu {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
-.contacts.menu {
-  display: flex;
-  justify-content: flex-end;
-}
-.nav-menu > .contacts.menu {
-  flex-grow: 1;
-}
+
 .menu-portfolio {
   display: flex;
   justify-content: center;
@@ -300,6 +287,10 @@ h3 {
 .f-contacts {
   display: flex;
 }
-.nav-contacts {
+.contacts-menu {
+  display: flex;
   justify-content: space-between;
+}
+.navigation {
+  display: flex;
 }
