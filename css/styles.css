@@ -41,6 +41,7 @@ a:focus {
   line-height: 1.14;
   text-decoration: none;
   color: var(--grey-fonts-color);
+  margin: 20px;
 }
 .contacts-top:hover,
 .contacts-top:focus {
@@ -55,6 +56,7 @@ a:focus {
 
   color: var(--blue-fonts-color);
   text-decoration: none;
+  margin-bottom: 5px;
 }
 .buttons {
   font-family: "Roboto";
@@ -196,8 +198,8 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 30px;
   max-width: 1200px;
-  margin: auto;
 }
 .header {
   max-width: 1200px;
@@ -224,9 +226,8 @@ h3 {
   color: var(--grey-fonts-color);
 }
 .nav-items {
-  margin-left: auto;
-  margin-right: auto;
   list-style: none;
+  padding-left: 20px;
 }
 
 .inner-text {
@@ -295,7 +296,6 @@ h3 {
 }
 .footer-contacts {
   display: block;
-  margin-top: 20px;
 }
 .f-contacts {
   display: flex;
@@ -306,8 +306,10 @@ h3 {
 }
 .navigation {
   display: flex;
+  align-items: center;
 }
 .footer-logo-address {
   display: flex;
   flex-direction: column;
+  padding: 30px;
 }
