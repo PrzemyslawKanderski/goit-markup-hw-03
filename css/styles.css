@@ -17,21 +17,6 @@
   display: flex;
 }
 
-a {
-  font-family: "Roboto";
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-
-  color: var(--grey-fonts-color);
-
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: var(--blue-fonts-color);
-}
 .contacts-top {
   font-family: "Roboto";
 
@@ -94,6 +79,7 @@ a:focus {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+  color: var(--grey-fonts-color);
 }
 .contacts-footer:hover,
 .contacts-footer:focus {
@@ -119,7 +105,7 @@ a:focus {
   color: var(--h1-color);
   margin-top: 5px;
 }
-h1 {
+.h1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -128,7 +114,7 @@ h1 {
   color: var(--h1-color);
   text-align: center;
 }
-h2 {
+.h2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -139,7 +125,7 @@ h2 {
   text-align: center;
   margin-top: 94px;
 }
-h3 {
+.h3 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -219,6 +205,10 @@ h3 {
   line-height: 1.14;
   text-decoration: none;
   color: var(--grey-fonts-color);
+}
+.links:hover,
+.links:focus {
+  color: var(--blue-fonts-color);
 }
 .nav-items {
   list-style: none;
