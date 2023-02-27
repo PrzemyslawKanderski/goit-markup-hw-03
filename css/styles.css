@@ -564,10 +564,13 @@ summary {
 .footer-logo-address {
   display: flex;
   flex-direction: column;
+  justify-content: left;
 }
 .footer-contacts {
   list-style: none;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 .f-contacts {
   font-family: "Roboto";
@@ -577,6 +580,7 @@ summary {
   line-height: 1.14;
   text-decoration: none;
   color: var(--grey-fonts-color);
+  font-style: none;
 }
 .contacts-footer {
   font-family: "Roboto";
@@ -584,6 +588,7 @@ summary {
   line-height: 1.71;
   text-decoration: none;
   color: var(--grey-fonts-color);
+  font-style: none;
 }
 .contacts-footer:hover,
 .contacts-footer:focus {
