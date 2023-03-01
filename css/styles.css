@@ -377,7 +377,7 @@ summary {
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
-  font-style: normal;
+  font-style: none;
 
   color: var(--h1-color);
   margin-top: 5px;
@@ -571,6 +571,7 @@ summary {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  font-style: none;
 }
 .f-contacts {
   font-family: "Roboto";
