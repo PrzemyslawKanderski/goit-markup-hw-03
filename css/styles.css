@@ -572,7 +572,6 @@ summary {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  font-style: normal;
 }
 .f-contacts {
   font-family: "Roboto";
@@ -582,7 +581,6 @@ summary {
   line-height: 1.14;
   text-decoration: none;
   color: var(--grey-fonts-color);
-  font-style: normal;
 }
 .contacts-footer {
   font-family: "Roboto";
