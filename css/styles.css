@@ -381,6 +381,7 @@ summary {
 
   color: var(--h1-color);
   margin-top: 5px;
+  font-style: normal;
 }
 .h1 {
   font-family: "Roboto";
@@ -571,7 +572,7 @@ summary {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  font-style: none;
+  font-style: normal;
 }
 .f-contacts {
   font-family: "Roboto";
@@ -581,7 +582,7 @@ summary {
   line-height: 1.14;
   text-decoration: none;
   color: var(--grey-fonts-color);
-  font-style: none;
+  font-style: normal;
 }
 .contacts-footer {
   font-family: "Roboto";
@@ -589,7 +590,7 @@ summary {
   line-height: 1.71;
   text-decoration: none;
   color: var(--grey-fonts-color);
-  font-style: none;
+  font-style: normal;
 }
 .contacts-footer:hover,
 .contacts-footer:focus {
