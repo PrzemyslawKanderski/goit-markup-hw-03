@@ -303,7 +303,25 @@ summary {
   text-decoration: none;
   display: flex;
 }
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+}
 
+.menu-portfolio {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  gap: 8px;
+}
+
+.contacts-menu {
+  display: flex;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
 .contacts-top {
   font-family: "Roboto";
 
@@ -370,19 +388,7 @@ summary {
   align-items: center;
   padding: 200px 0;
 }
-.wrapper-bottom {
-  background-color: var(--background-color);
-}
-.address {
-  font-family: "Roboto";
-  font-size: 14px;
-  line-height: 1.71;
-  font-style: none;
 
-  color: var(--h1-color);
-  margin-top: 5px;
-  font-style: normal;
-}
 .h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -543,24 +549,19 @@ summary {
   max-height: 404px;
   flex-direction: column;
 }
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-}
 
-.menu-portfolio {
-  display: flex;
-  justify-content: center;
-  align-content: space-between;
-  gap: 8px;
+.wrapper-bottom {
+  background-color: var(--background-color);
 }
+.address {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: none;
 
-.contacts-menu {
-  display: flex;
-}
-.navigation {
-  display: flex;
-  align-items: center;
+  color: var(--h1-color);
+  margin-top: 5px;
+  font-style: normal;
 }
 .footer-logo-address {
   display: flex;
