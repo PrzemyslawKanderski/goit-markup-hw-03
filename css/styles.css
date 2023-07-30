@@ -501,6 +501,7 @@ summary {
 .inner-text {
   display: flex;
   max-width: 696px;
+  align-items: center;
 }
 .inner-button {
   display: block;
