@@ -287,7 +287,8 @@ summary {
 }
 :root {
   --background-color: #2f303a;
-  --blue-fonts-color: #2196f3;
+  --blue-fonts-color: #4d5ae5;
+  --ocean-color: #404bbf;
   --h1-color: #ffffff;
   --bold-fonts-color: #212121;
   --grey-fonts-color: #757575;
@@ -353,13 +354,14 @@ summary {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-
-  color: var(--background-color);
+  background-color: var(--blue-fonts-color);
+  color: var(--h1-color);
   margin-top: 94px;
 }
 .buttons:hover,
 .buttons:focus {
-  color: #2196f3;
+  color: var(--h1-color);
+  background-color: var(--ocean-color);
 }
 .text-bold {
   font-family: "Roboto";
@@ -501,7 +503,7 @@ summary {
 .inner-text {
   display: flex;
   max-width: 696px;
-  align-items: center;
+  justify-content: center;
 }
 .inner-button {
   display: block;
